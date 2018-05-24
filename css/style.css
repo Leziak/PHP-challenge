@@ -25,6 +25,8 @@ h1 {
     height: 84vh;
     margin: 0 auto;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 label {

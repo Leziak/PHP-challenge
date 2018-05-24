@@ -34,6 +34,7 @@ $list = get_index();
                             <div class="card-body">
                                 <h5 class="card-title"><?= $el ?></h5>
                                 <a class="button" href="detail.php?item_id=<?= "{$id}" ?>">Show more</a>
+                                <a class="button" href="edit.php?item_id=<?= "{$id}" ?>">Edit</a> 
                             </div>
                         </div>
                     </div>

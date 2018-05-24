@@ -6,6 +6,9 @@ $item = $_GET['item_id'];
 
 $data = get_data($item);
 
+if($item===null) die('No data!');
+
+
 ?>
 
 

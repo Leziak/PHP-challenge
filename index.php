@@ -10,10 +10,6 @@ $branches = [];
 foreach($_POST['branch'] as $branch){
     $branches[] = $branch;
 }
-// var_dump($name);
-// var_dump($description);
-// var_dump($paradigm);
-// var_dump($branches);
 
 $data = ['name'=>$name, 'description'=>$description, 'paradigm'=>$paradigm, 'branches'=>$branches];
 
